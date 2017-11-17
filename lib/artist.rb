@@ -25,6 +25,7 @@ class Artist
       end
        if !artist
          artist = Artist.new(name)
+         artist.save
        end
        artist
    end
